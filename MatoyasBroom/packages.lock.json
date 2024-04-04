@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0-windows7.0": {
+      "DalamudPackager": {
+        "type": "Direct",
+        "requested": "[2.1.12, )",
+        "resolved": "2.1.12",
+        "contentHash": "Sc0PVxvgg4NQjcI8n10/VfUQBAS4O+Fw2pZrAqBdRMbthYGeogzu5+xmIGCGmsEZ/ukMOBuAqiNiB5qA3MRalg=="
+      },
+      "Reloaded.Memory": {
+        "type": "Transitive",
+        "resolved": "7.1.0",
+        "contentHash": "4Y5tCsRWdW/shj9W7RqJq37LStuW1VVtjxsBp4LKZilPcjudeQg9k+u+6fnDgacCEJiG3S2EtcaiNtVMTdaSnQ=="
+      },
+      "clicklib": {
+        "type": "Project",
+        "dependencies": {
+          "ECommons": "[2.1.0.7, )",
+          "Reloaded.Memory": "[7.1.0, )"
+        }
+      },
+      "ecommons": {
+        "type": "Project"
+      }
+    }
+  }
+}

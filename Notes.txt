@@ -1,0 +1,19 @@
+General actions:
+2: jump
+4: sprint
+5: desynth
+6: repair
+7: teleport
+8: return
+9: mount roulette
+10: minion
+12: melding
+13: melding
+14: materia extraction
+15: dying
+19: decipher
+20: dig
+21: aetherial reduction
+22: cast glamour
+24: flying mount roulette
+25: glamour plate

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B39B4BB-6521-4F6D-9787-9EAC97982F33}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		MatoyasBroom\MatoyasBroom.json = MatoyasBroom\MatoyasBroom.json
+		Notes.txt = Notes.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClickLib", "ClickLib\ClickLib\ClickLib.csproj", "{D923B971-0F12-4BED-B5AC-74FC2D5FC6B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4D08F5C-EADA-4DF5-BEC5-393FB84530D0} = {B4D08F5C-EADA-4DF5-BEC5-393FB84530D0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{B4D08F5C-EADA-4DF5-BEC5-393FB84530D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatoyasBroom", "MatoyasBroom\MatoyasBroom.csproj", "{A590A0FC-6691-4125-B02E-A261D25A1687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D923B971-0F12-4BED-B5AC-74FC2D5FC6B5}.Debug|x64.ActiveCfg = Debug|x64
+		{D923B971-0F12-4BED-B5AC-74FC2D5FC6B5}.Debug|x64.Build.0 = Debug|x64
+		{D923B971-0F12-4BED-B5AC-74FC2D5FC6B5}.Release|x64.ActiveCfg = Release|x64
+		{D923B971-0F12-4BED-B5AC-74FC2D5FC6B5}.Release|x64.Build.0 = Release|x64
+		{B4D08F5C-EADA-4DF5-BEC5-393FB84530D0}.Debug|x64.ActiveCfg = Debug|x64
+		{B4D08F5C-EADA-4DF5-BEC5-393FB84530D0}.Debug|x64.Build.0 = Debug|x64
+		{B4D08F5C-EADA-4DF5-BEC5-393FB84530D0}.Release|x64.ActiveCfg = Release|x64
+		{B4D08F5C-EADA-4DF5-BEC5-393FB84530D0}.Release|x64.Build.0 = Release|x64
+		{A590A0FC-6691-4125-B02E-A261D25A1687}.Debug|x64.ActiveCfg = Debug|x64
+		{A590A0FC-6691-4125-B02E-A261D25A1687}.Debug|x64.Build.0 = Debug|x64
+		{A590A0FC-6691-4125-B02E-A261D25A1687}.Release|x64.ActiveCfg = Release|x64
+		{A590A0FC-6691-4125-B02E-A261D25A1687}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17E85B1-5F60-4440-9F9A-3DDE877E8CDF}
+	EndGlobalSection
+EndGlobal

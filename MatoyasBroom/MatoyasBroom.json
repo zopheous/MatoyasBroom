@@ -1,0 +1,10 @@
+{
+  "Author": "Zopheous",
+  "Name": "Matoya's Broom'",
+  "Punchline": "XIV with maximum efficiency.",
+  "Description": "A simple plugin that helps you automate chores such as desynthesizing items, extracting materias, and performing GC turn-ins with maximum efficiency.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin"
+  ]
+}
